@@ -123,5 +123,4 @@ public class UserController {
         ResponseDTO responseDTO = new ResponseDTO("Sent Email Successfully", "toEmail");
         return new ResponseEntity<>(responseDTO, HttpStatus.OK);
     }
-
 }

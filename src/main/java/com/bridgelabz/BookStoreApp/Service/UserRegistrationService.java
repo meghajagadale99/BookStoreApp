@@ -178,5 +178,4 @@ public class UserRegistrationService implements IUserRegistrationService {
         userRegistrationRepository.save(userData);
         return "Password Has Been Reset";
     }
-
 }
