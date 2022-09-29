@@ -48,6 +48,7 @@ public class UserRegistrationService implements IUserRegistrationService {
     public List<UserData> findAllUsers() {
         return userRegistrationRepository.findAll();
     }
+
     @Override
     public UserData registerUserInBookStore(UserDTO userDTO) {
         UserData userDataByEmail = userRegistrationRepository.findUserDataByEmail(userDTO.getEmail());
